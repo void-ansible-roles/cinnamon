@@ -1,3 +1,5 @@
 ---
 - name: Install cinnamon
-  xbps: pkg=cinnamon state=present
+  xbps:
+    pkg: cinnamon
+    state: present
